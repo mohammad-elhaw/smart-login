@@ -23,7 +23,7 @@ var validation ={
 
 var database = [];
 
-if(localStorage.getItem){
+if(localStorage.getItem("users")){
     database = JSON.parse(localStorage.getItem("users"));
 }
 
